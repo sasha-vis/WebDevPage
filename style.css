@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    height: 4105px;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header {
+    position: absolute;
+    width: calc(100% - 80px);
+}
+
+h1 {
+    position: absolute;
+    color: #fff;
+    margin: 2%;
+}
+
+.header_wrapper {
+    position: relative;
+    width: 595px;
+    margin: 0 auto;
+    min-height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header ul li a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.header ul li a:hover {
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+}
+
+.header ul li:nth-child(1) {
+    margin-right: 85px;
+}
+
+.header ul li:nth-child(2) {
+    margin-right: 244px;
+}
+.header ul li:nth-child(3) {
+    margin-right: 85px;
+}
+
+.header ul li:nth-child(1) a {
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
+    opacity: 1;
+}
+
+.header img {
+    padding: 25px 0;
+    position: absolute;
+
+    left: calc(50% - 22px);
+}
+
+.your_life {
+    min-height: 744px;
+    background-image: url(./assets/header_image.png);
+}
+
+.your_life_content {
+    padding-top: 230px;
+    text-align: center;
+}
+
+.your_life_content h2 {
+    font-size: 64px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    line-height: 75px;
+}
+
+.your_life_content p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    padding: 18px 0;
+}
+
+.your_life_content button {
+    margin-top: 12px;
+    padding: 15px 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00AFDB;
+    border: 0;
+    cursor: pointer;
+}
+
+.your_life_content button:hover {
+    background-color: #009CC2;
+}
+
+.your_life_contacts {
+    text-align: center;
+    padding-top: 186px;
+}
+
+.your_life_contacts_wrapper {
+    width: 170px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.your_life_contacts_wrapper img {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.your_life_contacts_wrapper img:hover {
+    opacity: 1;
+}
+
+.rappresent {
+    display: flex;
+    padding: 120px 269px 140px 269px;
+    justify-content: space-between;
+}
+
+.rappresent_left {
+    padding-top: 175px;
+}
+
+.rappresent_left h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+
+    margin-bottom: 21px;
+}
+
+.rappresent_left p {
+    line-height: 20px;
+    color: #4E4E4E;
+}
+
+.rappresent_left button {
+    margin-top: 30px;
+    padding: 15px 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00AFDB;
+    border: 0;
+    cursor: pointer;
+}
+
+.rappresent_left button:hover {
+    background-color: #009CC2;
+}
+
+.our_community {
+    min-height: 500px;
+    background-color: #f5f6f7;
+}
+
+.our_community_top {
+    padding: 80px 0px 22px 0px;
+}
+
+.arrow_wrapper {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: 251px;
+}
+
+.arrow_left {
+    margin-right: 14px;
+}
+
+.arrow_right {
+    margin-left: 14px;
+}
+
+.our_community span {
+    font-size: 18px;
+    line-height: 18px;
+    color: #373737;
+}
+
+.our_community span:nth-child(3) {
+    margin: 0px 4px 0px 4px;
+}
+
+.our_community_bottom {
+    display: flex;
+    min-height: 380px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 32px;
+    padding-left: 272px;
+    padding-right: 142px;
+}
+
+.title h3 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #373737;
+    padding-left: 2px;
+}
+
+.title p {
+    line-height: 20px;
+    color: #4e4e4e;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slider ul {
+    display: flex;
+    width: 1281px;
+    position: absolute;
+    list-style: none;
+    top: -3px;
+}
+
+.slider ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.implement {
+    display: flex;
+    padding: 120px 380px 140px 269px;
+    justify-content: space-between;
+}
+
+.implement_right {
+    padding-top: 200px;
+}
+
+.implement_right h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+
+    margin-bottom: 21px;
+}
+
+.implement_right p {
+    line-height: 20px;
+    color: #4E4E4E;
+}
+
+.implement_right button {
+    margin-top: 30px;
+    padding: 15px 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00AFDB;
+    border: 0;
+    cursor: pointer;
+}
+
+.implement_right button:hover {
+    background-color: #009CC2;
+}
+
+.sign_up {
+    padding: 200px 597px 220px 597px;
+    background-image: url(./assets/sign_up_image.png);
+    text-align: center;
+}
+
+.sign_up h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.input_wrapper {
+    position: relative;
+    width: 406px;
+    height: 46px;
+    display: flex;
+}
+
+.sign_up input {
+    padding: 13px 24px;
+    border: 0;
+    width: 292px;
+}
+
+.sign_up .button {
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sign_up .button:hover {
+    opacity: 0.8;
+}
+
+.download {
+    text-align: center;
+    padding: 118px 560px 180px 560px;
+}
+
+.download h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #373737;
+
+    margin-bottom: 20px;
+}
+
+.download p {
+    line-height: 20px;
+    color: #4E4E4E;
+}
+
+.button_wrapper {
+    margin-top: 30px;
+    display: flex;
+    padding: 0 39px;
+    height: 46px;
+}
+
+.download .btn_apple,
+.download .btn_android {
+    display: flex;
+    align-items: center;
+    background-color: #00AFDB;
+    cursor: pointer;
+    border: 0;
+}
+
+.download .btn_apple {
+    margin-right: 29px;
+}
+
+.download .btn_apple:hover,
+.download .btn_android:hover {
+    background-color: #009CC2
+}
+
+.download .btn_apple img {
+    padding: 13px 21px;
+    background-color: #009CC2;
+}
+
+.download .btn_apple span {
+    padding: 15px 18px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.download .btn_android img {
+    padding: 12px 20px 11px 19px;
+    background-color: #009CC2;
+}
+
+.download .btn_android span {
+    padding: 15px 18px 15px 17px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.footer {
+    position: relative;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 73px 160px 92px 160px;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer nav ul li:not(:last-child) {
+    margin-right: 41px;
+    position: relative;
+}
+
+.footer nav ul li:not(:last-child)::after {
+    content: '';
+    width: 1px;
+    background-color: #4e4e4e;
+    height: 8px;
+    position: absolute;
+    right: -21px;
+    bottom: 5px;
+}
+
+.footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.footer nav ul li a:hover {
+    opacity: 0.5;
+}
+
+.footer span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #818181;
+}
+
+.footer img {
+    position: absolute;
+    left: calc(50% - 22px);
+    top: 60px;
+}
+
+
